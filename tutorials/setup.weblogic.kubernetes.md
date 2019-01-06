@@ -366,7 +366,7 @@ Final steps are to customize the parameters in the input YAML files for the WebL
 
 Most likely you already cloned locally the WebLogic Kubernetes Operator source repository to build the operator image. If not then first clone locally. Using the following command the sources will be cloned into `weblogic-kubernetes-operator` folder in the current directory.
 
-	git clone https://github.com/oracle/weblogic-kubernetes-operator.git
+	git clone -b "v1.1" https://github.com/oracle/weblogic-kubernetes-operator.git
 	Cloning into 'weblogic-kubernetes-operator'...
 	remote: Counting objects: 17144, done.
 	remote: Compressing objects: 100% (250/250), done.
